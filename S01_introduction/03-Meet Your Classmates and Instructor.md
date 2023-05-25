@@ -1,4 +1,4 @@
-# 03 Meet Your Classmates and Instructor（ZTM 社区指南）
+# S01P03: Meet Your Classmates and Instructor（ZTM 社区指南）
 
 本节主要介绍了如何加入和使用课程的 `Discord` 社区，如何查看课程更新和获取新的学习资源，以及如何对课程进行评价。希望通过这些方式，学员能更好地学习课程，发现新的朋友和合作伙伴，并获得新的职业机会。
 
