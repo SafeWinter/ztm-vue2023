@@ -35,3 +35,37 @@ Vue.createApp({
 ```
 
 适用场景：页面存在多个 `widgets`（微件）且需要独立运维时。
+
+此时控制台 `Vue` 标签会出现两个 `Vue` 实例：
+
+![multiple Vue instances](../assets/13-1.png)
+
+要想区分这两个实例，可以自定义实例名称，使用 `name` 属性：
+
+```js
+// first container
+Vue.createApp({
+    name: 'firstApp'
+    data() {
+        return {
+            firstName: 'John',
+            lastName: 'Doe'
+        }
+    }
+}).mount('#app1');
+
+// second container
+Vue.createApp({
+    name: 'LastApp'
+    data() {
+        return {
+            firstName: 'Jane',
+            lastName: 'Doe'
+        }
+    }
+}).mount('#app2');
+```
+
+结果如下：
+
+![names Vue instances](../assets/13-2.png)
