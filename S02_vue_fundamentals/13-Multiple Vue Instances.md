@@ -33,3 +33,5 @@ Vue.createApp({
     }
 }).mount('#app2');
 ```
+
+适用场景：页面存在多个 `widgets`（微件）且需要独立运维时。
