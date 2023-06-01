@@ -8,7 +8,7 @@ Make sure you have your email settings on Udemy to allow this, as every month we
 
 Some students have mentioned they do not receive these emails and it's mainly because of this *(Go to Your profile Icon and click:* ***Account > Notification Settings***). Make sure you have these 2 boxes checked if you want to receive the monthly email like in the image below.
 
-![img](https://img-c.udemycdn.com/redactor/raw/article_lecture/2021-03-09_14-13-22-603210afd08757facbdaf09b687c3c54.png)
+![Notifications settings](../assets/9-1.png)
 
 
 
