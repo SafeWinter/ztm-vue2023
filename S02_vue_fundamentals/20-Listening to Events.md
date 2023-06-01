@@ -94,5 +94,3 @@ const vm = Vue.createApp({
 `v-model` 可以理解为一个语法糖（syntactic sugar）。
 
 
-
-## 
