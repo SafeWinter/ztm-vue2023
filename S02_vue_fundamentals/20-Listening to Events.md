@@ -36,31 +36,12 @@ const vm = Vue.createApp({
 
 ## 2. v-model 双向绑定的拆解
 
-`v-model` 双向绑定指令的底层也是用的 `v-bind`，例如：
+假设有如下响应式变量 `lastName`：
 
 ```vue
-<template>
-<div id="app">
-    <input type="text" v-model="lastName" />
-</div>
-</template>
-```
-
-等效于：
-
-```vue
-<template>
-<div id="app">
-    <input type="text" v-bind:value="lastName" v-on:input="updateLastName" />
-</div>
-</template>
 <script>
 	const vm = Vue.createApp({
-        data() {
-            return {
-                lastName: 'Doe'
-            }
-        },
+        data() { return { lastName: 'Doe' } },
         methods: {
             updateLastName(event) {
                 this.lastName = event.target.value;
@@ -70,27 +51,25 @@ const vm = Vue.createApp({
 </script>
 ```
 
+`v-model` 双向绑定指令的底层也是用的 `v-bind`，例如：
+
+```vue
+<input type="text" v-model="lastName" />
+```
+
+等效于：
+
+```vue
+<input type="text" v-bind:value="lastName" v-on:input="updateLastName" />
+```
+
 也等效于：
 
 ```vue
-<template>
-<div id="app">
-    <input type="text" v-bind:value="lastName" v-on:input="lastName = $event.target.value"/>
-</div>
-</template>
-<script>
-	const vm = Vue.createApp({
-        data() {
-            return {
-                lastName: 'Doe'
-            }
-        }
-    }).mount('#app');
-</script>
+<input type="text" v-bind:value="lastName" v-on:input="lastName = $event.target.value"/>
 ```
 
 分开写可以对双向绑定过程做更精细的控制。但一般情况下使用 `v-model` 可以让代码更简洁。
 
 `v-model` 可以理解为一个语法糖（syntactic sugar）。
-
 
