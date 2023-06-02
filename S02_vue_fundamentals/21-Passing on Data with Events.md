@@ -21,8 +21,9 @@ Vue 的事件处理函数默认接收一个事件对象（如 `event`）。假�
     const vm = Vue.createApp({
         data() { return { lastName: 'Doe' } },
         methods: {
-            updateLastName(data, event) {
-                console.log(data);
+            updateLastName(msg, event) {
+                event.preventDefault();
+                console.log(msg);
                 this.lastName = event.target.value;
             }
         },
@@ -36,6 +37,6 @@ Vue 的事件处理函数默认接收一个事件对象（如 `event`）。假�
 
 ```vue
 <input type="text" :value="lastName" 
-       @input="console.log('Last name event triggered!'); lastName = $event.target.value;" />
+       @input="$event.preventDefault(); console.log('Last name event triggered!'); lastName = $event.target.value;" />
 ```
 
