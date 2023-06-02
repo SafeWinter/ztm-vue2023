@@ -2,8 +2,7 @@
 
 Resources:
 
-- section-2-1-STARTER.zip
-- section-2-1-COMPLETE.zip
+- section-2-9-STARTER.zip
 - **Vue installation** - https://vuejs.org/guide/quick-start.html#using-vue-from-cdn (2023/06/01 updated, v3.3.4)
 
 
