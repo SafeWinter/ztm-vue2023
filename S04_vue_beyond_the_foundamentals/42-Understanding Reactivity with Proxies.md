@@ -34,3 +34,4 @@ setTimeout(() => {
 ![CodePen snippets](../assets/42-1.png)
 
 `Proxy` 更多用法，详见 [MDN 文档](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Proxy)
+
