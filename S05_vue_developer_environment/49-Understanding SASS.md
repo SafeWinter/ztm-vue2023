@@ -46,6 +46,14 @@ h1:hover { color: darken(#CC3342, 15%) }
 
 示例2：添加嵌套样式
 
+修改 `main.js` 第 14 行：
+
+```html
+<h1>Hello <span>Vite</span>!</h1>
+```
+
+修改 `style.scss`：
+
 ```scss
 h1 {
     color: #CC3342;
