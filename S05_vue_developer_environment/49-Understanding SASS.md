@@ -9,7 +9,52 @@ resources：
 
 
 
+## 1 概述
+
+`Sass` 是一款非常强大的语言，出现填补了 `CSS` 的很多不足：支持函数操作、循环遍历数据等
+
+
+
+## 2 配置
+
+配置 `Sass` 支持：
+
+```bash
+# it's sass, instead of scss
+$ npm i sass
+$ mv style.css style.scss
+```
+
+然后修改 `main.js` 中引用的样式文件：
+
+```js
+import './style.scss'
+```
+
+
+
+## 3 特性示例
+
 示例1：添加 `h1` 与 `h1:hover` 样式（使用 `darken` 函数）
 
-示例2：添加嵌套样式（父级选择器的引用 &）
+```scss
+h1 { color: #CC3342 }
+h1:hover { color: darken(#CC3342, 15%) }
+```
+
+
+
+示例2：添加嵌套样式
+
+```scss
+h1 {
+    color: #CC3342;
+    span {
+        color: blue;
+    }
+    &:hover {
+        darken(#CC3342, 15%)
+    }
+}
+```
 
