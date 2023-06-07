@@ -2,6 +2,6 @@
 
 
 
-resources:
+Resources:
 
 - 
