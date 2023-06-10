@@ -82,3 +82,9 @@ User.vue:
 子组件 `User` 中的 `age` 虽然更新了，但不会同步更新到 `Greeting`：（否则 `age` 大于 25 后就会显示问候语）
 
 ![limitation of props](../assets/64-1.png)
+
+若此时修改 App.vue 上的 age（从 20 改为 21），则子组件的 37 会被自动覆盖，与父组件保持一致，均为 21：
+
+![age overriden1](../assets/64-2.png)
+
+![age value overriden2](../assets/64-3.png)
