@@ -45,7 +45,25 @@ $ npm create vue@3
 # with other options all set to No
 $ cd components
 $ npm i
+added 25 packages, and audited 26 packages in 4s
+
+2 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
 $ npm run dev
+
+> components@0.0.0 dev
+> vite
+
+Port 5173 is in use, trying another one...
+Port 5174 is in use, trying another one...
+
+  VITE v4.3.9  ready in 401 ms
+
+  ➜  Local:   http://localhost:5175/
+  ➜  Network: use --host to expose
+  ➜  press h to show help
 ```
 
 运行命名后会看到一系列交互式询问选项，除了项目名需要指定为 `components`（本单元的重点），其余全部选 `No` 直到项目创建完成。
@@ -60,3 +78,4 @@ $ npm run dev
 
 根据提示启动项目：`npm run dev`
 
+![project portal](../assets/55-2.png)
