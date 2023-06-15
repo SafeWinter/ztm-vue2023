@@ -134,13 +134,51 @@ $ npm run dev
 </template>
 ```
 
-我们希望在没有动态内容时，插槽可以提供一个默认值，写在子组件的 `slot` 标签主体内：（如：**No form to render**）
+我们希望在没有动态内容时，插槽可以提供一个默认值，写在子组件的 `slot` 标签主体内：（如：**No form to render**）——
+
+`Form.vue`：
 
 ```vue
 <template>
-  <form>
-    <slot>No form to render</slot>
-  </form>
+  <slot>No form to render</slot>
 </template>
+<script>
+export default {
+   name: 'AppForm'
+}
+</script>
 ```
 
+`App.vue`：
+
+```vue
+<template>
+  <app-form>
+    <div class="help">
+      <p>This is some help text.</p>
+    </div>
+    <div class="fields">
+      <input type="text" placeholder="email">
+      <input type="text" placeholder="username">
+      <input type="password" placeholder="password">
+    </div>
+    <div class="buttons">
+      <button type="submit">Submit</button>
+    </div>
+  </app-form>
+  <app-form />
+</template>
+<script>
+  import AppForm from './components/Form.vue';
+  export default {
+    name: 'App',
+    components: {
+      AppForm
+    }
+  }
+</script>
+```
+
+运行结果：
+
+![No content for slot: with default value to display](../assets/68-2.png)
