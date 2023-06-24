@@ -27,10 +27,6 @@ App.vue：
 ```vue
 <template>
   <button @click="flag = !flag">Toggle</button>
-
-  <!-- <transition name="zoom" appear>
-    <h2 v-if="flag">Hello</h2>
-  </transition> -->
   <transition
     @before-enter="beforeEnter"
     @enter="enter"
@@ -76,6 +72,8 @@ export default {
 };
 </script>
 ```
+
+注意：所有六个钩子的第一个参数都是目标 `DOM` 元素，唯独 `enter` 和 `leave` 多了第二个参数 `done`。它是一个回调函数，在动画执行结束时运行。
 
 实测效果：
 
