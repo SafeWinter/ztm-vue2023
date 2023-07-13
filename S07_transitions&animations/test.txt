@@ -1,0 +1,23 @@
+# 输入字符串
+$string = "71-Animating with CSS Transitions,72-Fine-tuning Transitions,73-Animating with CSS Animations,74-Animating with JavaScript,75-JavaScript Zoom Animation,76-CSS and JavaScript Transitions,77-Animating a List,78-Fixing the Animation,79-Transition CSS Class Names"
+
+# 按逗号分隔字符串为数组
+$array = $string -split ","
+
+# 遍历数组元素并生成 Markdown 文件
+foreach ($item in $array) {
+    # 提取元素值和编号
+    $index = $item.Substring(0, 2)
+    $title = $item.Substring(3)
+
+    # 构建文件名和一级标题
+    $fileName = "$index-$title.md"
+    $header = "S07P${index}: $title"
+
+    # 生成 Markdown 文件
+    @"
+# $header
+
+"@
+    | Out-File -FilePath $fileName -Encoding UTF8
+}
