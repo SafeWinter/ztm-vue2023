@@ -45,7 +45,7 @@ Vue.createApp({
 ```js
 // first container
 Vue.createApp({
-    name: 'firstApp'
+    name: 'firstApp',
     data() {
         return {
             firstName: 'John',
@@ -56,7 +56,7 @@ Vue.createApp({
 
 // second container
 Vue.createApp({
-    name: 'LastApp'
+    name: 'lastApp',
     data() {
         return {
             firstName: 'Jane',

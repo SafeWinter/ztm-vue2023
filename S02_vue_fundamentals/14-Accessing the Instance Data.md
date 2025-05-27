@@ -31,8 +31,8 @@ setTimeout(() => vm.firstName = 'Bob', 2000);
 
 before:
 
-![before changing firstName to Bob](../assets/14-1.png)
+<img src="../assets/14-1.png" alt="before changing firstName to Bob" style="zoom:50%;" />
 
 after:
 
-![After changing firstName to Bob](../assets/14-2.png)
+<img src="../assets/14-2.png" alt="After changing firstName to Bob" style="zoom:50%;" />
