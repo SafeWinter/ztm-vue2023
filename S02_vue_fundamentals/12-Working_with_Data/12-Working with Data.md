@@ -5,6 +5,8 @@
 > [!tip]
 >
 > 实测代码详见本节 `code` 文件夹
+>
+> **Vue installation** - https://vuejs.org/guide/quick-start.html#using-vue-from-cdn (`2023/06/01` updated, `v3.3.4`; `2026/05/14` updated, `v3.5.34`)
 
 
 

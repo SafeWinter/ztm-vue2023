@@ -2,7 +2,9 @@
 
 ---
 
-
+> [!tip]
+>
+> **Vue installation** - https://vuejs.org/guide/quick-start.html#using-vue-from-cdn (`2023/06/01` updated, `v3.3.4`; `2026/05/14` updated, `v3.5.34`)
 
 当 `mount` 挂载的 `DOM` 元素存在多个时，`mount(selector)` 只会匹配到符合条件的第一个元素。
 

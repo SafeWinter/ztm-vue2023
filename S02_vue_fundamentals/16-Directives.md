@@ -1,10 +1,10 @@
 # S02P16: Directives
 
-Resources:
+---
 
-- section-2-1-STARTER.zip
-- section-2-1-COMPLETE.zip
-- **Vue installation** - https://vuejs.org/guide/quick-start.html#using-vue-from-cdn (2023/06/01 updated, v3.3.4)
+Resources: 
+
+- **Vue installation** - https://vuejs.org/guide/quick-start.html#using-vue-from-cdn (`2023/06/01` updated, `v3.3.4`; `2026/05/14` updated, `v3.5.34`)
 
 
 
@@ -20,7 +20,7 @@ Resources:
 </div>
 ```
 
-然后在CSS中添加如下规则：
+然后在 `CSS` 中添加如下规则：
 
 ```css
 [v-cloak] {

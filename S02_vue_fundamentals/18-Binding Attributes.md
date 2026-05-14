@@ -1,13 +1,15 @@
 # S02P18: Binding Attributes
 
+---
+
 Resources:
 
 - section-2-9-STARTER.zip
-- **Vue installation** - https://vuejs.org/guide/quick-start.html#using-vue-from-cdn (2023/06/01 updated, v3.3.4)
+- **Vue installation** - https://vuejs.org/guide/quick-start.html#using-vue-from-cdn (`2023/06/01` updated, `v3.3.4`; `2026/05/14` updated, `v3.5.34`)
 
 
 
-绑定 DOM 元素中的属性：
+绑定 `DOM` 元素中的属性：
 
 - 完整写法：`<a v-bind:href="url" target="_blank">Google</a>`
 - 简写：`<a :href="url" target="_blank">Google</a>`

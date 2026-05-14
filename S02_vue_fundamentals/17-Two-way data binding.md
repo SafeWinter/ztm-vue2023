@@ -1,10 +1,10 @@
 # S02P17: Two-way data binding
 
+---
+
 Resources:
 
-- section-2-1-STARTER.zip
-- section-2-1-COMPLETE.zip
-- **Vue installation** - https://vuejs.org/guide/quick-start.html#using-vue-from-cdn (2023/06/01 updated, v3.3.4)
+- **Vue installation** - https://vuejs.org/guide/quick-start.html#using-vue-from-cdn (`2023/06/01` updated, `v3.3.4`; `2026/05/14` updated, `v3.5.34`)
 
 
 
@@ -16,9 +16,9 @@ Resources:
 
 
 
-双向绑定与原生JS绑定对比
+双向绑定与原生 `JavaScript` 绑定对比
 
-Vanilla JavaScript：
+Vanilla `JavaScript`：
 
 ```js
 const input = document.getElementById("first-name");
@@ -34,7 +34,7 @@ Vue's two-way binding:
 <input type="text" v-model="firstName" />
 ```
 
-传统方式中，一旦需要实现响应式的数据增多，运维难度就会直线上升（例如添加对应 DOM 元素的 ID，或 CSS 样式类等）；而 Vue 则在内部优雅实现。
+传统方式中，一旦需要实现响应式的数据增多，运维难度就会直线上升（例如添加对应 `DOM` 元素的 ID，或 `CSS` 样式类等）；而 `Vue` 则在内部优雅实现。
 
 
 
