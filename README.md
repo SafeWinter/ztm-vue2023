@@ -190,18 +190,22 @@ Instructor
 [Andrei Neagoie](https://www.udemy.com/user/andrei-neagoie/)
 
 Founder of zerotomastery.io
+zerotomastery.io 的创始人
 
+Andrei is the instructor of some of the highest rated programming and technical courses online. **He is now the founder of ZTM Academy which is one of the fastest growing education platforms in the world. ZTM Academy is known for having some of the best instructors and success rates for students.** His graduates have moved on to work for some of the biggest tech companies around the world like Apple, Google, Tesla, Amazon, JP Morgan, IBM, UNIQLO etc... He has been working as a senior software developer in Silicon Valley and Toronto for many years, and is now taking all that he has learned, to teach programming skills and to help you discover the amazing career opportunities that being a developer allows in life.
+安德烈是一位在线编程和技术课程的讲师，该课程在业内享有极高的评价。 **他创立了 ZTM Academy，这是全球发展最快的教育平台之一。ZTM Academy 以其优秀的师资力量和极高的学生成功率而闻名。** 他的毕业生已进入全球众多顶尖科技公司工作，例如苹果、谷歌、特斯拉、亚马逊、摩根大通、IBM、优衣库等等。安德烈本人曾在硅谷和多伦多担任高级软件开发人员多年，如今他将自己积累的所有经验倾注于编程技能的教学中，帮助学员们发现成为一名开发人员所带来的无限职业机遇。
 
+Having been a self taught programmer, he understands that there is an overwhelming number of online courses, tutorials and books that are overly verbose and inadequate at teaching proper skills. Most people feel paralyzed and don't know where to start when learning a complex subject matter, or even worse, most people don't have $20,000 to spend on a coding bootcamp. **Programming skills should be affordable and open to all. An education material should teach real life skills that are current and they should not waste a student's valuable time.** Having learned important lessons from working for Fortune 500 companies, tech startups, to even founding his own business, he is now dedicating 100% of his time to teaching others valuable software development skills in order to take control of their life and work in an exciting industry with infinite possibilities.
+作为一名自学成才的程序员，他深知市面上充斥着大量冗长乏味、内容空洞的在线课程、教程和书籍，而这些内容往往无法真正教授到所需的技能。大多数人在学习复杂的编程知识时会感到束手无策，不知从何入手；更糟糕的是，大多数人根本拿不出两万美元去参加编程训练营。 **编程技能应该是人人都能负担得起的，并且应该面向所有人开放。优质的教育材料应该教授实用且与时俱进的技能，而不是浪费学生宝贵的时间。** 他曾在财富 500 强企业、科技初创公司工作，甚至创办了自己的公司，从中汲取了宝贵的经验。如今，他全身心投入到软件开发技能的教学中，帮助他人掌握宝贵的技能，从而掌控自己的人生，并在一个充满无限可能的激动人心的行业中大展拳脚。
 
-Andrei is the instructor of some of the highest rated programming and technical courses online. **He is now the founder of ZTM Academy which is one of the fastest growing education platforms in the world. ZTM Academy is known for having some of the best instructors and success rates for students.** His graduates have moved on to work for some of the biggest tech companies around the world like Apple, Google, Tesla, Amazon, JP Morgan, IBM, UNIQLO etc... He has been working as a senior software developer in Silicon Valley and Toronto for many years, and is now taking all that he has learned, to teach programming skills and to help you discover the amazing career opportunities that being a developer allows in life. 
+Andrei promises you that there are no other courses out there as comprehensive and as well explained. **He believes that in order to learn anything of value, you need to start with the foundation and develop the roots of the tree. Only from there will you be able to learn concepts and specific skills(leaves) that connect to the foundation. Learning becomes exponential when structured in this way.**
+安德烈向你保证，市面上没有任何其他课程能像他的课程一样全面透彻、讲解透彻。 **他认为，要想学习任何有价值的东西，都必须从基础入手，扎好根基。只有这样，你才能学习到与基础相连的概念和具体技能（树叶）。以这种方式构建的学习体系，学习效率将呈指数级增长。**
 
-Having been a self taught programmer, he understands that there is an overwhelming number of online courses, tutorials and books that are overly verbose and inadequate at teaching proper skills. Most people feel paralyzed and don't know where to start when learning a complex subject matter, or even worse, most people don't have $20,000 to spend on a coding bootcamp. **Programming skills should be affordable and open to all. An education material should teach real life skills that are current and they should not waste a student's valuable time.** Having learned important lessons from working for Fortune 500 companies, tech startups, to even founding his own business, he is now dedicating 100% of his time to teaching others valuable software development skills in order to take control of their life and work in an exciting industry with infinite possibilities. 
+Taking his experience in educational psychology and coding, Andrei's courses will take you on an understanding of complex subjects that you never thought would be possible.
+安德烈凭借其在教育心理学和编程方面的经验，开设的课程将带你理解你从未想过自己能够理解的复杂主题。
 
-Andrei promises you that there are no other courses out there as comprehensive and as well explained. **He believes that in order to learn anything of value, you need to start with the foundation and develop the roots of the tree. Only from there will you be able to learn concepts and specific skills(leaves) that connect to the foundation. Learning becomes exponential when structured in this way.** 
-
-Taking his experience in educational psychology and coding, Andrei's courses will take you on an understanding of complex subjects that you never thought would be possible. 
-
-**See you inside the courses!**
+**See you inside the courses!
+课程里见！**
 
 
 
@@ -212,9 +216,10 @@ Instructor
 [Luis Ramirez Jr](https://www.udemy.com/user/luisramirezjr/)
 
 Frontend Software Engineer Instructor
-
-
+前端软件工程师讲师
 
 Luis is a software engineer with a decade of experience in web application development. He has spent his career architecting solutions that are reliable, battle-tested, secure, scalable, and performant. As an engineer, it's always a priority to develop applications that provide a fluid user experience.
+路易斯是一位拥有十年 Web 应用程序开发经验的软件工程师。他毕生致力于构建可靠、久经考验、安全、可扩展且高性能的解决方案。作为一名工程师，他始终将开发能够提供流畅用户体验的应用程序放在首位。
 
 Most courses will teach you the "how," but never the "why." **Luis believes that understanding core and critical concepts in programming will make you a competitive engineer in today's market.** He's here to assist you in this journey by demystifying low-level concepts that other instructors may gloss over.
+大多数课程会教你“怎么做”，却从不讲“为什么”。 **路易斯认为，理解编程的核心和关键概念，能让你在当今竞争激烈的工程师市场中脱颖而出。** 他将帮助你踏上这段学习之旅，为你揭开其他老师可能一带而过的底层概念的神秘面纱。

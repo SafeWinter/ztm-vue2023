@@ -9,5 +9,5 @@ The recommended workflow:
 
 
 
-(课程资料会随时更新，更新后重新下载即可。本地暂时下载到 `/resources` 文件夹下，不提交到 GitHub)
+(课程资料会随时更新，更新后重新下载即可。所有课件放到 `/resources` 文件夹下)
 
